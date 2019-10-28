@@ -1,0 +1,177 @@
+.mask{
+	width:100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+}
+/*导航*/
+nav{
+	height: 70px !important;
+	z-index: 999;
+}
+
+.navbar-default .navbar-brand{
+	font-size:30px;
+	font-weight: bold;
+	color:lightseagreen;
+	height: 70px !important;
+	line-height:36px;
+}
+.navbar-nav li a{
+	height: 70px !important;
+	line-height:36px;
+	font-size:16px;
+	font-weight: bold;
+}
+.navbar-toggle{
+	margin-top:20px;
+}
+.navbar-toggle:hover{
+	background:lightseagreen !important;
+	border-color:lightseagreen !important;
+}
+#navmenue{
+	background: #f8f8f8;
+}
+/*首页*/
+#home{
+	width:100%;
+	background-image: url(../images/home-bg.jpg);
+	background-size:100% 100%;
+	color:#fff;
+	text-align: center;
+	margin-top:70px;
+}
+#home h1{
+	font-weight: bold;
+	margin:30px auto;
+}
+#home p{
+	font-weight: bold;
+	line-height: 35px;
+}
+#home img{
+	display: inline-block;
+}
+/*论坛*/
+#bbs{
+	padding:50px 0px;
+	text-align: center;
+}
+#bbs a{
+	text-decoration: none;
+	color:#212121;
+}
+#bbs h3{
+	font-weight: bold;
+}
+#bbs .col-md-4{
+	padding:15px 0px;
+	border-radius: 10px;
+}
+#bbs .col-md-4:hover{
+	background: #eee;
+	box-shadow: 8px 8px 10px #ccc;
+}
+/*html5,bootstrap*/
+#html5,#bootstrap{
+	background: lightgray;
+	padding:50px 0px;
+}
+#bootstrap{
+	background: #fff;
+}
+#html h2,#bootstrap h2{
+	font-size:bold;
+}
+#html p,#bootstrap p{
+	line-height: 30px;
+}
+/*course*/
+#course{
+	background: lightgray;
+	padding:50px 0px;
+	text-align: center;
+}
+#course h2{
+	padding-bottom: 50px;
+}
+#course .col-md-3{
+	margin-bottom: 20px;
+}
+.course {
+	background: #fff;
+}
+#course a{
+	background: #fff;
+	color:#20b2aa;
+	border:1px solid #20b2aa;
+	border-radius: 0px;
+	padding:8px 30px;
+	margin:20px 0px 30px 0px;
+}
+#course a:hover{
+	background: #20b2aa;
+	color:#fff;
+}
+
+/*apps*/
+#apps{
+	padding:50px 0px;
+}
+#apps h2{
+	padding-bottom: 30px;
+	font-weight: bold;
+}
+#apps p{
+	line-height: 30px;
+}
+#apps .btn{
+	margin:5px;
+	background: lightseagreen;
+	border:1px solid lightseagreen;
+	border-radius: 0px;
+	padding:8px 30px;
+}
+#apps .btn:hover{
+	background: lightskyblue;
+	border:1px solid lightskyblue;
+}
+/*联系我们*/
+#contact{
+	width:100%;
+	background-image: url(../images/contact-bg.png);
+	background-size:100% 100%;
+	color:#fff;
+}
+#contact h2{
+	padding-bottom: 30px;
+	font-weight: bold;
+	margin-top:50px;
+}
+#contact p{
+	line-height: 35px;
+}
+#contact .conInp{
+	margin-top:50px;
+}
+#contact .form-control{
+	border:none;
+	border-radius: 0px;
+	height: 50px;
+	margin-bottom: 30px;
+}
+#contact textarea{
+	height:120px !important;
+	resize: none;/*不允许拖拽*/
+}
+#contact .sub{
+	background: lightseagreen;
+	color:#fff;
+}
+.foot{
+	height: 80px;
+	line-height:80px ;
+	background: #000;
+	text-align: center;
+	color:#fff;
+}
